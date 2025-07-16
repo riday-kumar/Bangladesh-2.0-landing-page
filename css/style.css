@@ -1,0 +1,442 @@
+* {
+  font-family: "Fira Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+/* common css */
+.bg-primary {
+  background: #f5f5f5;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.section-head {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.para {
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  line-height: 25px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* custom css */
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.nav-item h2 {
+  color: rgb(14, 14, 14);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.sign-in {
+  padding: 15px 30px;
+  border: 1px solid rgb(0, 106, 8, 0);
+  border-radius: 8px;
+  color: rgb(0, 106, 80);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.btn-bangladesh {
+  padding: 17px 34px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+}
+
+/* banner */
+.banner-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  padding: 80px 60px;
+  gap: 155px;
+  margin: 20px 0 80px 0;
+}
+
+.banner-content span {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(14, 14, 14, 0.5);
+  padding-bottom: 16px;
+}
+
+.banner-content h1 {
+  color: rgb(14, 14, 14);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+  padding-bottom: 24px;
+}
+
+.banner-parent img {
+  height: 329px;
+}
+
+/* pillars of BD section */
+.pillers-parent {
+  display: flex;
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.pillar-card {
+  background: white;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.pillar-card img {
+  padding-bottom: 25px;
+}
+
+.pillar-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.5);
+  padding-bottom: 13px;
+}
+
+.pillar-card p {
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+/* Vision of Future */
+.vision p {
+  font-weight: 400;
+  line-height: 24px;
+  padding: 24px 0 32px 0;
+}
+.vision-card-parent {
+  display: flex;
+  gap: 24px;
+}
+
+.vision-card {
+  border: none;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.vision-card:nth-child(1) {
+  background: rgba(84, 144, 245, 0.2);
+}
+
+.vision-card:nth-child(1) .btn-bangladesh {
+  background: rgba(84, 144, 245);
+}
+
+.vision-card:nth-child(2) {
+  background: rgb(198, 228, 214);
+}
+
+.vision-card:nth-child(2) .btn-bangladesh {
+  background: rgb(9, 161, 92);
+}
+
+.vision-card:nth-child(3) {
+  background: rgb(247, 235, 207);
+}
+
+.vision-card:nth-child(3) .btn-bangladesh {
+  background: rgb(255, 194, 57);
+}
+
+.vision-card img {
+  padding-bottom: 25px;
+}
+
+.vision-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.5);
+  padding-bottom: 13px;
+}
+
+.vision-card p {
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  padding: 12px 0 24px 0;
+}
+
+/* speech section */
+.speech {
+  background-color: white;
+  background-image: url("../images/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position-x: 24px;
+  background-position-y: 24px;
+  padding: 48px 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+}
+
+.speech h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.8);
+  margin: 15px 0 7px 0;
+}
+
+/* Opinion Matters Section */
+
+.opinion h2 {
+  padding-bottom: 20px;
+}
+
+.table-wrap {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.opinion-table {
+  width: 100%;
+}
+
+.opinion-table,
+td {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-collapse: collapse;
+  padding: 35px 24px;
+  font-weight: 600;
+}
+
+.table-col-name th {
+  background: rgb(198, 228, 214);
+  padding: 24px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.table-col-name:nth-child(1) {
+  width: 80%;
+  text-align: left;
+}
+
+.table-col-name:nth-child(2) {
+  width: 20%;
+  text-align: right;
+}
+
+.my-opinion {
+  padding: 10px 14px;
+  border-radius: 4px;
+  background: rgb(198, 228, 214);
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Recent News */
+.recent-nw > p {
+  margin-top: 24px;
+}
+
+.news-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  background: white;
+  padding: 48px;
+  margin-top: 32px;
+  border-radius: 24px;
+}
+
+.news-card:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.news-card > img {
+  width: 100%;
+  height: 306px;
+  border-radius: 24px;
+}
+
+.news-content img {
+  margin: 10px;
+}
+
+.news-content h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+}
+
+.news-content span {
+  font-weight: 400;
+  display: block;
+  text-align: left;
+  color: rgba(14, 14, 14, 0.7);
+  padding: 12px 0;
+}
+
+.news-content p {
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.news-content button {
+  margin-top: 32px;
+}
+
+/* donate section */
+
+.donate > p {
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  padding: 25px 0;
+}
+
+.taka-parent {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.taka {
+  background: white;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+}
+
+.taka:hover {
+  background: rgb(198, 228, 214);
+}
+
+.donate-form {
+  margin: 20px 30px;
+}
+
+.donate-form input[type="text"] {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.donate-form input[type="submit"] {
+  margin-top: 10px;
+}
+
+/* subscribe section */
+.subscribe {
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  padding: 80px 100px;
+}
+
+.subscribe p {
+  font-weight: 400;
+  line-height: 25px;
+  color: rgba(14, 14, 14, 0.7);
+  padding: 20px 220px;
+}
+
+.subscribe span {
+  color: rgba(14, 14, 14, 0.7);
+  font-weight: 400;
+  display: block;
+  padding: 20px 0;
+}
+
+.subscribe-form {
+  position: relative;
+}
+
+.subscribe-form input[type="email"] {
+  width: 50%;
+  padding: 17px;
+  border: 1px solid white;
+  font-size: 18px;
+  border: none;
+  border: 1px solid white;
+  border-radius: 5px 0 0 5px;
+}
+
+.subscribe-form input[type="submit"] {
+  position: absolute;
+  border-radius: 0 5px 5px 0;
+  /* padding: 20px; */
+  border: 1px solid #006a50;
+  border: none;
+  top: -2px;
+  bottom: 0;
+}
+
+/* footer */
+.footer {
+  background: white;
+}
+
+.footer-content {
+  max-width: 1280px;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
+.footer-content h4 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.footer-content hr {
+  margin: 20px 0;
+  border: 1px solid rgba(14, 14, 14, 0.03);
+}
+
+.social ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  justify-content: center;
+}
+
+.social ul li a img {
+  height: 15px;
+}
