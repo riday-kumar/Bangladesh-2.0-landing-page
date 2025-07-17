@@ -26,7 +26,7 @@ h6 {
 
 .section-head {
   color: rgb(14, 14, 14);
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 48px;
 }
@@ -187,7 +187,7 @@ h6 {
 }
 
 .vision-card h3 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   color: rgba(14, 14, 14, 0.5);
   padding-bottom: 13px;
@@ -212,7 +212,7 @@ h6 {
 }
 
 .speech h4 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   line-height: 24px;
   color: rgba(14, 14, 14, 0.8);
@@ -451,6 +451,14 @@ td {
 
 /* Responsive for Large Screen */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .section-head {
+    font-size: 2.5rem;
+  }
+
   .banner-parent {
     gap: 40px;
   }
@@ -469,7 +477,14 @@ td {
     max-width: 100%;
   }
 
-  .banner-parent {
+  .section-head {
+    font-size: 2.5rem;
+  }
+
+  .banner-parent,
+  .vision-card-parent,
+  .news-card,
+  .news-card:nth-child(2n) {
     flex-direction: column;
     gap: 40px;
   }
@@ -489,7 +504,14 @@ td {
     max-width: 100%;
   }
 
-  .banner-parent {
+  .section-head {
+    font-size: 2.5rem;
+  }
+
+  .banner-parent,
+  .vision-card-parent,
+  .news-card,
+  .news-card:nth-child(2n) {
     flex-direction: column;
   }
 
@@ -515,8 +537,15 @@ td {
     max-width: 100%;
   }
 
+  .section-head {
+    font-size: 2rem;
+  }
+
   .nav-item,
-  .banner-parent {
+  .banner-parent,
+  .vision-card-parent,
+  .news-card,
+  .news-card:nth-child(2n) {
     flex-direction: column;
   }
 
@@ -537,5 +566,24 @@ td {
 
   .pillers-parent {
     grid-template-columns: 1fr;
+  }
+
+  .table-wrap {
+    padding: 20px 10px;
+  }
+
+  .table-col-name:nth-child(1) {
+    max-width: 100%;
+  }
+
+  .table-col-name th {
+    padding: 18px 5px;
+    font-size: 1rem;
+  }
+
+  .opinion-table,
+  td {
+    padding: 15px 5px;
+    line-height: 25px;
   }
 }
