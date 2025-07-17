@@ -457,6 +457,10 @@ td {
   .banner-content h1 {
     font-size: 2.5rem;
   }
+
+  .pillers-parent {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Responsive for Medium Screen */
@@ -472,6 +476,10 @@ td {
 
   .banner-content h1 {
     font-size: 2.5rem;
+  }
+
+  .pillers-parent {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -494,6 +502,10 @@ td {
     padding-top: 15px;
     font-size: 2.5rem;
     line-height: 50px;
+  }
+
+  .pillers-parent {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -521,5 +533,9 @@ td {
     padding-top: 15px;
     font-size: 2rem;
     line-height: 40px;
+  }
+
+  .pillers-parent {
+    grid-template-columns: 1fr;
   }
 }
